@@ -31,7 +31,7 @@ for x in range(r):
     fizzer.append(tmp) 
 ```
 
-In this case since we're iterating through a list with complexity O(n) we can use two implementations of the range() function:
+In this case since we're iterating through a range with complexity O(n) we can use two implementations of the range() function:
 
 ```
 range(r)
